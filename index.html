@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Snowboarding project</title>
+	<link rel="shortcut icon" href="src/img/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+	<link rel="stylesheet" href="src/vendor/bootstrap.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<link rel="stylesheet" href="dist/css/style.main.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css">
+	<link rel="stylesheet" href="src/css/slick-theme.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script type="text/javascript" src="src/vendor/fresco.js"></script>
+	<link rel="stylesheet" type="text/css" href="src/vendor/fresco.css" />	
+
+	
+</head>
+<body>
+	<header class="header navbar navbar-default navbar-fixed-top">
+		<div class="container clearfix container__header">
+			<a class="header__logo">
+				<img src="src/img/logo.png" alt="">
+			</a>
+			<div class="header__nav-container">
+                <input class="header__nav-check" id="header__nav-check" type="checkbox">
+                <label for="header__nav-check" class="header__nav"></label>
+                <nav id="navigation1" class="navigation">
+                <ul>
+                    <li class="nav__list-item"><a href="#" class="header__menu-link">SHOP</a></li>
+					<li class="nav__list-item"><a href="#" class="header__menu-link">TEAM</a></li>
+					<li class="nav__list-item"><a href="#" class="header__menu-link">EVENTS</a></li>
+					<li class="nav__list-item"><a href="#" class="header__menu-link">EXPERIENCE</a></li>
+					<li class="nav__list-item"><a href="#" class="header__menu-link">COMPANY</a></li>
+					<li class="nav__list-item"><a href="#" class="header__menu-link">Contact</a></li>
+                </ul>
+            </nav>
+            </div>
+			<div class="header__search clearfix">
+				<input type="text" value="" name="header__search" placeholder="">
+				<button class="header__search-button clearfix"><p>search</p></button>
+			</div>
+
+			<a href="#" class="header__cost">€0</a>
+		</div>
+	</header>
+
+    <section class="container-fluid slider">
+		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+			<div class="carousel-inner" role="listbox">
+				<div class="item first-slide active">
+					<img src="src/img/slider-top1.jpg" alt="" width="100%" height="100%">
+					<div class="slider__info">
+						<h1>Run Over Everything</h1>
+						<button type="button">See details</button>
+					</div>
+				</div>
+				<div class="item second-slide">
+					<img src="src/img/slider-top2.jpg" alt="" width="100%" height="100%">
+					<div class="slider__info">
+						<h1>Run Over Everything</h1>
+						<button type="button">See details</button>
+					</div>
+				</div>
+			</div>
+			<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+	</section>
+
+    <section class="snowboards container">
+    	<h3 class="snowboards__title">snowboards</h3>
+    	<section class="center slider">
+			<div><a href="#"><img src="src/img/board/board3.png" alt=""></a></div>
+			<div><a href="#"><img src="src/img/board/board4.png" alt=""></a></div>
+			<div><a href="#"><img src="src/img/board/board5.png" alt=""></a></div>
+			<div><a href="#"><img src="src/img/board/board1.png" alt=""></a></div>
+			<div><a href="#"><img src="src/img/board/board2.png" alt=""></a></div>
+		</section>
+		<h4 class="snowboards__subtitle">Snowboard extreme Series</h4>
+    </section>
+
+    <section class="company clearfix">
+    	<div class="container">
+    		<div class="wrapper__company ">
+    			<h3 class="company__title">The Mountains Snowboarding<sup>&reg;</sup></h3>
+	    		<p class="company__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt auctor facilisis. Nam massa dui, imperdiet et mi ut, sagittis viverra odio. Duis et lectus eu enim gravida vulputate nec eget nisi. Nunc ultrices velit blandit, dapibus lacus in, feugiat erat. Donec non porttitor augue, sit amet lacinia purus. Nulla fringilla quam est, luctus dapibus odio suscipit ut. Vivamus et lectus a nunc fringilla volutpat. Morbi sed congue sem.</p>
+
+				<p class="company__content">Aliquam erat volutpat. Curabitur ut consequat arcu, eget laoreet est. Vivamus semper nibh sit amet libero hendrerit luctus. Fusce non bibendum lorem. Fusce laoreet risus eget tortor lobortis egestas. Etiam tempus quam sed felis viverra scelerisque. Integer fringilla libero risus, vel euismod turpis auctor ac. Proin elementum aliquet libero a dapibus. Mauris et tempor dolor.</p>
+    		</div>
+    		
+    	</div>
+    </section>
+
+    <section class="features">
+    	<h3 class="features__title">gallery</h3>
+    	<div class="features__gallery">
+    		<div class="features__gallery-item">
+    			<a class='fresco' data-fresco-group='example' title="Глубоководные рыбы" href="src/img/features_1b.jpg"><img src="src/img/features_1s.jpg" border="0"/></a>
+    			<p>Born Identity: Bringing Burton</p>
+    			<p>Hardgoods to Life</p>
+    		</div>
+    		<div class="features__gallery-item">
+    			<a class='fresco' data-fresco-group='example' title="Пещерные рыбы" href="src/img/features_2b.jpg"><img src="src/img/features_2s.jpg" border="0"/></a>
+    			<p>Jeremy Jones: On That Street</p>
+    			<p>Grind</p>
+    		</div>
+    		<div class="features__gallery-item">
+    			<a class='fresco' data-fresco-group='example' title="Чудные рыбы" href="src/img/features_3b.jpg"><img src="src/img/features_3s.jpg" border="0"/></a>
+				<p>Burton’s Tokyo Rail Days</p>
+    			<p>Recap</p>
+    		</div>
+    		<div class="features__gallery-item">
+    			<a class='fresco' data-fresco-group='example' title="Глубоководные рыбы" href="src/img/features_4b.jpg"><img src="src/img/features_4s.jpg" border="0"/></a>
+    			<p>Burton’s Tokyo Rail Days</p>
+    			<p>Preview</p>
+    		</div>
+    		<div class="features__gallery-item" style="padding-right: 0;">
+    			<a class='fresco' data-fresco-group='example' title="Пещерные рыбы" href="src/img/features_1b.jpg"><img src="src/img/features_1s.jpg" border="0"/></a>
+    			<p>Born Identity: Bringing Burton</p>
+    			<p>Hardgoods to Life</p>
+    		</div>
+		</div>
+    </section>
+
+    <footer class="footer">
+    	<div class="container clearfix footer__info">
+    		<div class="footer__item footer__item-first" >
+				<h4 class="footer__title">products</h4>
+				<ul class="footer__list">
+					<li class="footer__list-item"><a href="#" class="footer__list-link">Mens</a></li>
+					<li class="footer__list-item"><a href="#" class="footer__list-link">Womens</a></li>
+					<li class="footer__list-item"><a href="#" class="footer__list-link">Youth</a></li>
+				</ul>
+    		</div>
+    		<div class="footer__item">
+				<h4 class="footer__title">about</h4>
+				<ul class="footer__list">
+					<li class="footer__list-item"><a href="#" class="footer__list-link">Careers and Internships</a></li>
+					<li class="footer__list-item"><a href="#" class="footer__list-link">Sponsorships</a></li>
+					<li class="footer__list-item"><a href="#" class="footer__list-link">team</a></li>
+					<li class="footer__list-item"><a href="#" class="footer__list-link">Catalog Request/Download</a></li>
+				</ul>
+    		</div>
+    		<div class="footer__item">
+				<h4 class="footer__title">customer support</h4>
+				<ul class="footer__list">
+					<li class="footer__list-item"><a href="#" class="footer__list-link">Contact us</a></li>
+					<li class="footer__list-item"><a href="#" class="footer__list-link">Shipping and Order Tracking</a></li>
+					<li class="footer__list-item"><a href="#" class="footer__list-link">Easy Returns</a></li>
+					<li class="footer__list-item"><a href="#" class="footer__list-link">Warranty</a></li>
+					<li class="footer__list-item"><a href="#" class="footer__list-link">Replacement Binding Parts</a></li>
+				</ul>
+    		</div>
+    		<div class="footer__item">
+				<h4 class="footer__title">Newsletter</h4>
+				<div class="footer__search clearfix">
+					<input type="text" value="" name="footer__search" placeholder="Enter your email">
+					<button class="footer__search-button">Go</button>
+				</div>
+				<div class="footer__social">
+					<a href="#" class="footer__social-link"></a>
+					<a href="#" class="footer__social-link" style="background-position: -37px 0;"></a>
+					<a href="#" class="footer__social-link" style="background-position: -85px 0;"></a>
+					<a href="#" class="footer__social-link" style="background-position: -127px 0;"></a>
+					<a href="#" class="footer__social-link" style="background-position: -176px 0; width: 42px; margin-right: 0;"></a>
+				</div>
+    		</div>    		
+    	</div>
+    	<div class="container clearfix">
+			<p class="footer__copyright">&copy; 2014 Mountains Snowboards</p>
+			<a class="footer__region">Change Region</a>
+		</div>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+    <script src="dist/script/script.main.min.js"></script>	
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>	
+</body>
+</htmls
