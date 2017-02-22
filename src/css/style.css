@@ -312,6 +312,10 @@
     -o-box-shadow: 0px -1px 8px 5px rgba(4, 4, 5, 0.4);
     -ms-box-shadow: 0px -1px 8px 5px rgba(4, 4, 5, 0.4); }
 
+.remodal img {
+  width: 100%;
+  height: auto; }
+
 /* ---------- END SECTION FEATURES ---------- */
 /* ---------- FOOTER ---------- */
 .footer {

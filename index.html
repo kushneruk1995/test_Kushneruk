@@ -12,13 +12,20 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css">
 	<link rel="stylesheet" href="src/css/slick-theme.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-	<script type="text/javascript" src="src/vendor/fresco.js"></script>
-	<link rel="stylesheet" type="text/css" href="src/vendor/fresco.css" />	
+	<link rel="stylesheet" href="src/vendor/remodal.css">
+    <link rel="stylesheet" href="src/vendor/remodal-default-theme.css">
+    <script src="src/vendor/remodal.js"></script>
+    <script src="src/vendor/remodal_test.js"></script>
 
+    <style>
+
+
+    	
+    </style>
 	
 </head>
-<body>
-	<header class="header navbar navbar-default navbar-fixed-top">
+<body class="">
+	<header class="header navbar navbar-default navbar-fixed-top wrapper">
 		<div class="container clearfix container__header">
 			<a class="header__logo">
 				<img src="src/img/logo.png" alt="">
@@ -46,7 +53,7 @@
 		</div>
 	</header>
 
-    <section class="container-fluid slider">
+    <section class="container-fluid slider wrapper">
 		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 			<div class="carousel-inner" role="listbox">
 				<div class="item first-slide active">
@@ -73,7 +80,7 @@
 		</div>
 	</section>
 
-    <section class="snowboards container">
+    <section class="snowboards container wrapper">
     	<h3 class="snowboards__title">snowboards</h3>
     	<section class="center slider">
 			<div><a href="#"><img src="src/img/board/board3.png" alt=""></a></div>
@@ -85,7 +92,7 @@
 		<h4 class="snowboards__subtitle">Snowboard extreme Series</h4>
     </section>
 
-    <section class="company clearfix">
+    <section class="company clearfix wrapper">
     	<div class="container">
     		<div class="wrapper__company ">
     			<h3 class="company__title">The Mountains Snowboarding<sup>&reg;</sup></h3>
@@ -97,38 +104,80 @@
     	</div>
     </section>
 
-    <section class="features">
+    <section class="features wrapper">
     	<h3 class="features__title">gallery</h3>
     	<div class="features__gallery">
-    		<div class="features__gallery-item">
-    			<a class='fresco' data-fresco-group='example' title="Глубоководные рыбы" href="src/img/features_1b.jpg"><img src="src/img/features_1s.jpg" border="0"/></a>
-    			<p>Born Identity: Bringing Burton</p>
-    			<p>Hardgoods to Life</p>
-    		</div>
-    		<div class="features__gallery-item">
-    			<a class='fresco' data-fresco-group='example' title="Пещерные рыбы" href="src/img/features_2b.jpg"><img src="src/img/features_2s.jpg" border="0"/></a>
-    			<p>Jeremy Jones: On That Street</p>
-    			<p>Grind</p>
-    		</div>
-    		<div class="features__gallery-item">
-    			<a class='fresco' data-fresco-group='example' title="Чудные рыбы" href="src/img/features_3b.jpg"><img src="src/img/features_3s.jpg" border="0"/></a>
-				<p>Burton’s Tokyo Rail Days</p>
-    			<p>Recap</p>
-    		</div>
-    		<div class="features__gallery-item">
-    			<a class='fresco' data-fresco-group='example' title="Глубоководные рыбы" href="src/img/features_4b.jpg"><img src="src/img/features_4s.jpg" border="0"/></a>
-    			<p>Burton’s Tokyo Rail Days</p>
-    			<p>Preview</p>
-    		</div>
-    		<div class="features__gallery-item" style="padding-right: 0;">
-    			<a class='fresco' data-fresco-group='example' title="Пещерные рыбы" href="src/img/features_1b.jpg"><img src="src/img/features_1s.jpg" border="0"/></a>
-    			<p>Born Identity: Bringing Burton</p>
-    			<p>Hardgoods to Life</p>
-    		</div>
+
+		    <div class="wrapper features__gallery-item">
+			    <div class="remodal-bg">
+			        <img data-remodal-target="modal1" src="src/img/features_1s.jpg" alt="">
+			        <p>Born Identity: Bringing Burton</p>
+    				<p>Hardgoods to Life</p>
+			        
+			    </div>
+
+			    <div class="remodal" data-remodal-id="modal1">
+			        <a data-remodal-action="close" class="remodal-close"></a>
+			        <img src="src/img/features_1b.jpg" alt="">
+			    </div>
+			</div>
+
+			<div class="wrapper features__gallery-item">
+			    <div class="remodal-bg">
+			        <img data-remodal-target="modal2" src="src/img/features_2s.jpg" alt="">
+			        <p>Jeremy Jones: On That Street</p>
+    				<p>Grind</p>
+			    </div>
+
+			    <div class="remodal" data-remodal-id="modal2">
+			        <a data-remodal-action="close" class="remodal-close"></a>
+			        <img src="src/img/features_2b.jpg" alt="">
+			    </div>
+			</div>
+
+			<div class="wrapper features__gallery-item">
+			    <div class="remodal-bg">
+			        <img data-remodal-target="modal3" src="src/img/features_3s.jpg" alt="">
+			        <p>Burton’s Tokyo Rail Days</p>
+			        <p>Recap</p>
+			    </div>
+
+			    <div class="remodal" data-remodal-id="modal3">
+			        <a data-remodal-action="close" class="remodal-close"></a>
+			        <img src="src/img/features_3b.jpg" alt="">
+			    </div>
+			</div>
+
+
+			<div class="wrapper features__gallery-item">
+			    <div class="remodal-bg">
+			        <img data-remodal-target="modal4" src="src/img/features_4s.jpg" alt="">
+			        <p>Burton’s Tokyo Rail Days</p>
+			        <p>Prewiev</p>
+			    </div>
+
+			    <div class="remodal" data-remodal-id="modal4">
+			        <a data-remodal-action="close" class="remodal-close"></a>
+			        <img src="src/img/features_4b.jpg" alt="">
+			    </div>
+			</div>
+
+			<div class="wrapper features__gallery-item">
+			    <div class="remodal-bg">
+			        <img data-remodal-target="modal4" src="src/img/features_1s.jpg" alt="">
+			        <p>Born Identity: Bringing Burton</p>
+    				<p>Hardgoods to Life</p>
+			    </div>
+
+			    <div class="remodal" data-remodal-id="modal4">
+			        <a data-remodal-action="close" class="remodal-close"></a>
+			        <img src="src/img/features_1b.jpg" alt="">
+			    </div>
+			</div>
 		</div>
     </section>
 
-    <footer class="footer">
+    <footer class="footer wrapper">
     	<div class="container clearfix footer__info">
     		<div class="footer__item footer__item-first" >
 				<h4 class="footer__title">products</h4>
@@ -178,6 +227,12 @@
 		</div>
 
     </footer>
+
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+  		<filter id="blur">
+    		<feGaussianBlur stdDeviation="3"></feGaussianBlur>
+  		</filter>
+	</svg>
     <script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
     <script src="dist/script/script.main.min.js"></script>	
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>	
